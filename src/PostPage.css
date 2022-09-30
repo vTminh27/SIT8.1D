@@ -1,0 +1,57 @@
+.title {
+    background: #b7bdbb;
+}
+
+.post {
+    margin: 10px;
+}
+
+.showOption {
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.postButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    max-width: 550px;
+    width: 90%;
+    background: rgb(224, 218, 218);
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.heading {
+    display: block;
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: 2px solid #D3D3D3;
+}
+
+input[type='text']:focus, textarea:focus {
+    border: 2px solid #5e7746;
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #8fe75b;
+}
